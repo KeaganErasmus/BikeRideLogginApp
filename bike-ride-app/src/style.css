@@ -1,0 +1,52 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  border: grey solid 2px;
+  width: 30rem;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+}
+
+#ride-name,
+#ride-type,
+#ride-distance,
+#ride-duration {
+  border-bottom: gray 1px solid;
+}
+
+.cards {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.create {
+  width: 100vw;
+  display: flex;
+
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.rider {
+  width: 100vw;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+h1,
+p {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
